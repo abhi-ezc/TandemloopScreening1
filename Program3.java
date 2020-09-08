@@ -13,8 +13,15 @@ public class Program3
             {
                 break;
             }
-            System.out.print(count);
+            if(i!=1)
+            {
+                System.out.print(","+count);
+            }
+            else
+            {
+                System.out.print(count);
+            }
             count+=2;
         }
-	}
+	} 
 }
